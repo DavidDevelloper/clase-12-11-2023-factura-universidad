@@ -1,0 +1,94 @@
+2023-11-11 16:14:37,460 INFO o.s.b.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.7 with PID 14160 (C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes started by DATABASEF in C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main)
+2023-11-11 16:14:37,489 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-11 16:14:38,709 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-11 16:14:38,811 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2023-11-11 16:14:39,860 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9081 (http)
+2023-11-11 16:14:39,887 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:14:39,896 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-11 16:14:39,898 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-11 16:14:40,092 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-11 16:14:40,095 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2518 ms
+2023-11-11 16:14:40,324 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-11 16:14:40,472 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-11-11 16:14:40,476 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-11 16:14:40,673 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:14:40,860 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-11 16:14:40,883 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-11 16:14:41,277 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3df77dfa
+2023-11-11 16:14:41,279 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-11 16:14:41,850 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:14:42,885 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-11 16:14:43,134 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:14:43,540 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-11 16:14:44,151 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personaDtoController' defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\controlador\dto\PersonaDtoController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.springsimplespasos.universidad.universidadbackend.servicios.contratos.PersonaDAO' available: expected single matching bean but found 2: alumnoDAOImpl,empleadoDAOImpl
+2023-11-11 16:14:44,152 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:14:44,154 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-11 16:14:44,161 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-11 16:14:44,165 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-11 16:14:44,183 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-11 16:14:44,220 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springsimplespasos.universidad.universidadbackend.controlador.dto.PersonaDtoController required a single bean, but 2 were found:
+	- alumnoDAOImpl: defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\servicios\implementaciones\AlumnoDAOImpl.class]
+	- empleadoDAOImpl: defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\servicios\implementaciones\EmpleadoDAOImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2023-11-11 16:15:11,208 INFO o.s.b.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.7 with PID 1156 (C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes started by DATABASEF in C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main)
+2023-11-11 16:15:11,227 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-11 16:15:12,458 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-11 16:15:12,555 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 6 JPA repository interfaces.
+2023-11-11 16:15:13,692 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9081 (http)
+2023-11-11 16:15:13,703 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:15:13,710 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-11 16:15:13,711 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-11 16:15:13,871 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-11 16:15:13,873 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2541 ms
+2023-11-11 16:15:14,127 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-11 16:15:14,201 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-11-11 16:15:14,206 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-11 16:15:14,451 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:15:14,643 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-11 16:15:14,671 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-11 16:15:14,914 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63187d63
+2023-11-11 16:15:14,919 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-11 16:15:15,464 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:15:16,490 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-11 16:15:16,715 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:15:17,132 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-11 16:15:17,857 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'personaDtoController' defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\controlador\dto\PersonaDtoController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.springsimplespasos.universidad.universidadbackend.servicios.contratos.PersonaDAO' available: expected single matching bean but found 2: alumnoDAOImpl,empleadoDAOImpl
+2023-11-11 16:15:17,858 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:15:17,860 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-11 16:15:17,869 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-11 16:15:17,872 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-11 16:15:17,891 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-11 16:15:17,916 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springsimplespasos.universidad.universidadbackend.controlador.dto.PersonaDtoController required a single bean, but 2 were found:
+	- alumnoDAOImpl: defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\servicios\implementaciones\AlumnoDAOImpl.class]
+	- empleadoDAOImpl: defined in file [C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes\com\springsimplespasos\universidad\universidadbackend\servicios\implementaciones\EmpleadoDAOImpl.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

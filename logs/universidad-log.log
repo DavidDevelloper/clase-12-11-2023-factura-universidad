@@ -1,0 +1,12 @@
+2023-11-11 16:29:16,531 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:29:16,623 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9081 (http) with context path '/api/v2/universidad'
+2023-11-11 16:29:16,634 INFO o.s.b.StartupInfoLogger [main] Started UniversidadBackendApplication in 25.195 seconds (process running for 28.653)
+2023-11-11 16:29:29,915 INFO o.a.j.l.DirectJDKLog [http-nio-9081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-11 16:29:29,916 INFO o.s.w.s.FrameworkServlet [http-nio-9081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-11 16:29:29,918 INFO o.s.w.s.FrameworkServlet [http-nio-9081-exec-1] Completed initialization in 1 ms
+2023-11-11 16:29:31,026 INFO o.s.a.AbstractOpenApiResource [http-nio-9081-exec-8] Init duration for springdoc-openapi is: 434 ms
+2023-11-11 16:31:58,322 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-9081-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'HOT' as a subtype of `com.springsimplespasos.universidad.universidadbackend.modelo.entidades.dto.PersonaDTO`: known type ids = [alumno, profesor]]
+2023-11-11 16:32:57,326 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-9081-exec-7] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Could not resolve type id 'HOT' as a subtype of `com.springsimplespasos.universidad.universidadbackend.modelo.entidades.dto.PersonaDTO`: known type ids = [alumno, profesor]]
+2023-11-11 16:33:57,590 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:33:57,605 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-11 16:33:57,605 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

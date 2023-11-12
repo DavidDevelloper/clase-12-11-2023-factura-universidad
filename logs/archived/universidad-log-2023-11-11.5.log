@@ -1,0 +1,52 @@
+2023-11-11 16:23:13,429 INFO o.s.b.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.7 with PID 14248 (C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes started by DATABASEF in C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main)
+2023-11-11 16:23:13,452 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-11 16:23:14,698 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-11 16:23:14,812 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 6 JPA repository interfaces.
+2023-11-11 16:23:15,897 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9081 (http)
+2023-11-11 16:23:15,911 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:23:15,918 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-11 16:23:15,919 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-11 16:23:16,109 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-11 16:23:16,112 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2542 ms
+2023-11-11 16:23:16,406 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-11 16:23:16,480 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-11-11 16:23:16,483 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-11 16:23:16,726 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:23:16,919 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-11 16:23:16,945 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-11 16:23:17,185 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71f0806b
+2023-11-11 16:23:17,188 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-11 16:23:17,756 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:23:18,744 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-11 16:23:18,917 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:23:19,292 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-11 16:23:20,268 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-11 16:23:20,828 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:23:20,857 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9081 (http) with context path '/api/v2/universidad'
+2023-11-11 16:23:20,871 INFO o.s.b.StartupInfoLogger [main] Started UniversidadBackendApplication in 7.971 seconds (process running for 8.719)
+2023-11-11 16:25:45,698 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:25:45,703 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-11 16:25:45,711 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-11 16:28:52,678 INFO o.s.b.StartupInfoLogger [main] Starting UniversidadBackendApplication using Java 17.0.7 with PID 15248 (C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main\target\classes started by DATABASEF in C:\Users\DATABASEF\Desktop\DAVID MOISES BELTRAN\universidad-main)
+2023-11-11 16:28:52,763 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-11 16:29:01,730 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-11 16:29:02,229 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 463 ms. Found 6 JPA repository interfaces.
+2023-11-11 16:29:05,998 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9081 (http)
+2023-11-11 16:29:06,044 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9081"]
+2023-11-11 16:29:06,066 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-11 16:29:06,067 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-11-11 16:29:06,387 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-11 16:29:06,390 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 13490 ms
+2023-11-11 16:29:07,283 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-11 16:29:07,773 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-11-11 16:29:07,790 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-11 16:29:08,945 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:29:09,537 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-11 16:29:09,608 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-11 16:29:10,391 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6f3b13d0
+2023-11-11 16:29:10,393 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-11 16:29:11,781 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-11 16:29:13,237 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-11 16:29:13,684 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-11 16:29:14,202 INFO o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-11-11 16:29:15,785 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
